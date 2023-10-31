@@ -28,19 +28,18 @@ class Heroi {
     }
   }
   
-  // Exemplo de utilização da classe Heroi
   const heroiMago = new Heroi('Merlin', 100, 'mago');
-  console.log(heroiMago.atacar()); // O mago atacou usando magia
+  console.log(heroiMago.atacar());
   
   const heroiGuerreiro = new Heroi('Arthur', 35, 'guerreiro');
-  console.log(heroiGuerreiro.atacar()); // O guerreiro atacou usando espada
+  console.log(heroiGuerreiro.atacar()); 
   
   const heroiMonge = new Heroi('Lee', 50, 'monge');
-  console.log(heroiMonge.atacar()); // O monge atacou usando artes marciais
+  console.log(heroiMonge.atacar()); 
   
   const heroiNinja = new Heroi('Hattori', 28, 'ninja');
-  console.log(heroiNinja.atacar()); // O ninja atacou usando shuriken
+  console.log(heroiNinja.atacar()); 
   
   const heroiDesconhecido = new Heroi('Desconhecido', 1000, 'desconhecido');
-  console.log(heroiDesconhecido.atacar()); // O desconhecido atacou usando poder desconhecido
+  console.log(heroiDesconhecido.atacar()); 
   
